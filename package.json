@@ -9,7 +9,8 @@
     "remax": "npx cypress run --spec cypress/e2e/remax.cy.js",
     "code":"npx cypress run -s cypress/e2e/codenBow.cy.js",
     "kirill" :" npx cypress run --spec cypress/e2e/kirKoel.cy.js",
-    "spec" : "npx cypress run -s cypress/e2e/spec.cy.js"
+    "spec" : "npx cypress run -s cypress/e2e/spec.cy.js",
+    "target": "npx cypress run -s cypress/e2e/target.cy.js"
 },
   "author": "tim",
   "license": "ISC",
