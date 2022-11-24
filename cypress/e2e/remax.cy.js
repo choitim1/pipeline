@@ -6,7 +6,7 @@
 describe("someTest",()=>{
 
     it("redirect",function(){
-        cy.visit("https://ultimateqa1.com")
+        cy.visit("https://ultimateqa.com")
         cy.window().then(win => {
             cy.stub(win, 'open').as('open')
           })

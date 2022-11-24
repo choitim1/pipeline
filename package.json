@@ -4,10 +4,12 @@
   "description": "studio",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run",
+    "test": "npx cypress run --browser chrome",
     "koel": "npx cypress run -s cypress/e2e/koel.cy.js",
     "remax": "npx cypress run --spec cypress/e2e/remax.cy.js",
-    "code":"npx cypress run -s cypress/e2e/codenBow.cy.js"
+    "code":"npx cypress run -s cypress/e2e/codenBow.cy.js",
+    "kirill" :" npx cypress run --spec cypress/e2e/kirKoel.cy.js",
+    "spec" : "npx cypress run -s cypress/e2e/spec.cy.js"
 },
   "author": "tim",
   "license": "ISC",
