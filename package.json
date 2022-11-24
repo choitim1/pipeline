@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npx cypress run",
     "koel": "npx cypress run -s cypress/e2e/koel.cy.js",
-    "remax": "npx cypress run -s cypress/e2e/remax.cy.js",
+    "remax": "npx cypress run --spec cypress/e2e/remax.cy.js",
     "code":"npx cypress run -s cypress/e2e/codenBow.cy.js"
 },
   "author": "tim",
