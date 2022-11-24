@@ -1,17 +1,10 @@
-{
-  "name": "cypress-studio",
-  "version": "1.0.0",
-  "description": "studio",
-  "main": "index.js",
-  "scripts": {
+ "test": "echo \"Error: no test specified\" && exit 1"
+
+ "scripts": {
     "test": "npx cypress run",
     "koel": "npx cypress run -s cypress/e2e/koel.cy.js",
     "remax": "npx cypress run -s cypress/e2e/remax.cy.js",
     "code":"npx cypress run -s cypress/e2e/codenBow.cy.js"
 },
-  "author": "tim",
-  "license": "ISC",
-  "devDependencies": {
-    "cypress": "^11.1.0"
-  }
-}
+
+for run specific test   ===>  npm run (koel, remax, code)
